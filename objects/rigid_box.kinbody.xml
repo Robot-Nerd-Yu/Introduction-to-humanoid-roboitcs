@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kinbody name="rigid_box">
+  <body name="mesh">
+    <geom type="trimesh">
+      <render>meshes/rigid_box.stl 0.001</render>
+      <collision>meshes/rigid_box.stl 0.001</collision>
+      <diffusecolor>0.3 0.3 0.3</diffusecolor>
+    </geom>
+  </body>
+</kinbody>

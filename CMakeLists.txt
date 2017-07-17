@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(introduction-to-humanoid-robotics)
 
 find_package(catkin REQUIRED COMPONENTS
+  openrave_catkin
   rospy
 )
 
