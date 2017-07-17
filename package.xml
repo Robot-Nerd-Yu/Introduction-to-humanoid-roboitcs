@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>introduction-to-humanoid-robotics</name>
+  <version>0.0.0</version>
+  <description>The introduction-to-humanoid-robotics package</description>
+
+  <maintainer email="Robot-Nerd-Yu@github.com">yy</maintainer>
+
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <!-- <url type="website">http://wiki.ros.org/introduction-to-humanoid-robotics</url> -->
+
+  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+
+</package>
