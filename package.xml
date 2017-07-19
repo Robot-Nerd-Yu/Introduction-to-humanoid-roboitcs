@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>introduction-to-humanoid-robotics</name>
+  <name>introduction_to_humanoid_robotics</name>
   <version>0.0.0</version>
   <description>The introduction-to-humanoid-robotics package</description>
 

@@ -4,7 +4,7 @@
     <geom type="trimesh">
       <render>meshes/rigid_box.stl 0.001</render>
       <collision>meshes/rigid_box.stl 0.001</collision>
-      <diffusecolor>0.3 0.3 0.3</diffusecolor>
+      <diffusecolor>0.7 0.7 0.9</diffusecolor>
     </geom>
   </body>
 </kinbody>
