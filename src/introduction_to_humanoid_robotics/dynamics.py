@@ -8,6 +8,22 @@ import tf.transformations as tr
 def get_body_angular_momentum(link, omega):
   """
   Given the angular velocity, compute the anglular momentum.
+
+  Paremeters:
+  -----------
+  link: OpenRAVE.kinbodys
+    The rigid body from which to get its angular momentum.
+  omega: numpy.array, shape=(3,)
+    The vector of angular velocity.
+
+  Returns:
+  --------
+  L: numpy.array, shape=(3,)
+    Angular mometum.
+  I: numpy.array, shape=(3,3)
+    Inertial Matrix.
+  omegad: numpy.array, shape=(3,)
+    Angular accelaration.
   """
   R = link.GetTransform()[:3, :3]
   I_local = link.GetLocalInertia()
